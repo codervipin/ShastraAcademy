@@ -193,17 +193,15 @@ nav .menu-bar i:hover{
 }
 
 .first .main .mainbanner .left h1 span{
-    color: transparent;
+/*     color: transparent; */
     animation: blink 1.5s infinite alternate;
 }
 @keyframes blink {
     0%{
-        background: #fff;
-        background-clip: text;
+        color: #5271FF;
     }
     100%{
-        background: #5271FF;
-        background-clip: text;
+        color: #fff;
     }
 }
 
